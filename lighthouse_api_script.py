@@ -41,6 +41,6 @@ schema = [{'name': 'date', 'type': 'DATE'},
 
 credential = service_account.Credentials.from_service_account_file(BQ_Credential_File_Path)
 
-page_speed.to_gbq(target_table, project_id=BQ_Project_ID, if_exists='append', location=BQ_Job_Location,
-                  progress_bar=False, credentials=credential, table_schema=schema)
+#page_speed.to_gbq(target_table, project_id=BQ_Project_ID, if_exists='append', location=BQ_Job_Location,
+#                  progress_bar=False, credentials=credential, table_schema=schema)
 #----------------------------------------------------------------------------------------------------------------------
